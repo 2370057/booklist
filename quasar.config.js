@@ -98,7 +98,9 @@ module.exports = configure(function (ctx) {
       // directives: [],
 
       // Quasar plugins
-      plugins: []
+      plugins: [
+        'Notify', 'Dialog','LocalStorage'
+      ]
     },
 
     // animations: 'all', // --- includes all animations
@@ -176,6 +178,7 @@ module.exports = configure(function (ctx) {
         ]
       }
     },
+
 
     // Full list of options: https://v2.quasar.dev/quasar-cli-webpack/developing-cordova-apps/configuring-cordova
     cordova: {

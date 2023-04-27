@@ -61,6 +61,18 @@ const linksList = [
     caption: 'vue 실습 1',
     icon: 'code',
     link: '/shop'
+  },
+  {
+    title: 'todo',
+    caption: 'vue + store 실습',
+    icon: 'home',
+    link: '/todo'
+  },
+  {
+    title: 'booklist',
+    caption: 'booklist',
+    icon: 'home',
+    link: '/booklist'
   }
 ]
 
